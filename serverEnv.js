@@ -4,7 +4,8 @@ const env = {
 	dbInfo: {
 		dbName: 'leaves',
 		departmentCol: 'department',
-		employeeCol: 'employee'
+		employeeCol: 'employee',
+		leavesCol: 'leaves'
 	}
 };
 

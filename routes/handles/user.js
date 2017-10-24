@@ -1,6 +1,7 @@
 const response = require('../../utils/response'),
 			md5 = require('md5'),
 			serverEnv = require('../../serverEnv');
+
 async function login (req, res) {
 	let email = req.body.email,
 		passwd = req.body.password;
@@ -20,4 +21,4 @@ async function login (req, res) {
 	}
 }
 
-module.exports = login;
+module.exports.Login = login;
