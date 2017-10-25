@@ -14,6 +14,7 @@ async function login (req, res) {
 		} else {
 			result = response(10004, 'not found');
 		}
+		db.close();
 		res.send(result);
 	} catch (err) {
 		console.log(err.stack);

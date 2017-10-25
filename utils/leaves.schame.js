@@ -13,13 +13,7 @@ let json = {
 		kind: "",                         // 审批类型，可选值为 leader | addition
 		operator_employee_id: null        // 审批人id
 	},
-	histories: [{                       // 审批历史
-		kind: "",                         // 类型，可选值为
-		//   creation | leader | addition | comment
-		operator_employee_id: null,       // 审批人id
-		operated_at: null,                // 审批时间
-		text: ""                           // 审批内容
-	}],
+	histories: [],
 	comments: []
 };
 
